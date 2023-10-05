@@ -1,0 +1,88 @@
+div.blocks {
+    font-size: 0;
+}
+div.block {
+    border: 1px solid #ddd;
+    background-color: skyblue;
+    color: white;
+    padding: 8px;
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 14px;
+    min-width: 300px;
+}
+a {
+    text-decoration: none;
+    color: darkorange;
+    font-size: 20px;
+}
+a:hover {
+    color: crimson;
+}
+
+ol li {
+    color: darkgrey;
+    font-size: 20px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+h1 {
+    color: darkseagreen;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h3.list-title {
+    color: darkseagreen;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 46px;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: inline-block;
+}
+
+ul li {
+    color: lightsalmon;
+    font-size: 50px;
+}
+
+ul li span {
+    background-color: lightsalmon;
+    display: inline-block;
+    padding: 0 20px;
+    color: white;
+    font-size: 12px;
+    line-height: 50px;
+}
+
+ul li span a {
+    color: darkkhaki;
+    text-decoration: none;
+}
+
+.up {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+
+}
+
+.up a {
+    text-decoration: none;
+    color: white;
+    background-color: darkkhaki;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+}
